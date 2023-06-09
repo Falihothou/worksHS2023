@@ -123,29 +123,35 @@
     position: relative;
     animation: move1 5s linear infinite;
     animation-delay: 0.5s;
+    height: 100%;
 }
 .animate-img2{
     position: relative;
     animation: move2 5s ease infinite;
     animation-delay: 0.5s;
+    height: 100%;
 }
 .animate-img3{
     position: relative;
     animation: move1 5s linear infinite;
     animation-delay: 0.3s;
+    height: 100%;
 }
 .animate-img4{
     position: relative;
     animation: move2 5s ease infinite;
     animation-delay: 0.3s;
+    height: 100%;
 }
 .animate-img5{
     position: relative;
     animation: move1 5s linear infinite;
+    height: 100%;
 }
 .animate-img6{
     position: relative;
     animation: move2 5s ease infinite;
+    height: 100%;
 }
 
 
