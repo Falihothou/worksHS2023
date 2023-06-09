@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Bootstrap CSS end -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="pricing.css">
+
+    <title>花禮湖燒_AI工具王</title>
+
+</head>
+<body>
+    <!-- -----------LOGO選單 Start ------------ -->
+    <nav class="container navbar navbar-expand-lg mb-7">
+        <div class="container py-6 border-bottom border-white">
+            <a class="navbar-brand" href="#">
+                <img class="logo-img-box" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/logo.png" alt="">
+            </a>
+            <!-- open -->
+            <button class="menu-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/menu.png" alt="">
+            </button>
+
+            <div class="offcanvas offcanvas-end offcanvas-full" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <div class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <img class="logo-img-box" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/logo.png" alt="">
+                    </div>
+                    <button type="button" class="offcanvas-btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/close.png" alt=""></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1">
+                        <li class="nav-item me-7">
+                            <a class="offcanvas-link text-white" href="index.html">首頁</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="offcanvas-link text-white" href="pricing.html">定價</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- -----------LOGO選單 End ------------ -->
+
+    <div class="container">
+        <div class="d-flex flex-column h-theme-primary mb-10">
+            <h1 class="fz-title fw-black text-white mb-6">用多少，<br>付多少。</h1>
+            <div class="row justify-content-end mb-auto">
+                <div class="col-md-6">
+                    <h2 class="fz-sub-title fw-black text-white">我們相信，最靈活的取用機制，才能最大化的幫助你業務的推動。</h2>
+                </div>
+            </div>
+            <!-- -----------動畫 Start ------------ -->
+            <div class="overflow-hidden d-flex">
+                <div class="animate-img-box d-flex flex-column">
+                    <img class="animate-img1" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/deco.png" alt="">
+                    <img class="animate-img2" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/deco.png" alt="">
+                </div>
+                <div class="animate-img-box d-flex flex-column">
+                    <img class="animate-img3" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/deco.png" alt="">
+                        <img class="animate-img4" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/deco.png" alt="">
+                </div>
+                <div class="animate-img-box d-flex flex-column">
+                    <img class="animate-img5" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/deco.png" alt="">
+                    <img class="animate-img6" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/deco.png" alt="">
+                </div>
+            </div>
+            <!-- -----------動畫 End ------------ -->
+        </div>
+
+
+        <!-- -----------產品Price START ------------ -->
+
+        <div class="row mb-6 mb-max-md-5">
+            <div class="col-lg-4 mb-max-md-2"><h2 class="fw-black text-white fs-2">定價</h2></div>
+        </div>
+
+        <div class="row g-4 mb-10">
+            <div class="col-lg-6">
+                <div class="r-primary border border-white text-white d-flex flex-column h-price-card">
+                    <div class="px-9 py-6 px-max-md-7 mb-auto">
+                        <p class="fs-2 fw-black">琪琪</p>
+                        <ul class="list-point">
+                            <li class="list-point">初級</li>
+                            <li class="list-point">速度最快</li>
+                        </ul>
+                    </div>
+
+                    <div class="d-flex border-top border-whit px-9 py-6 px-max-md-7 justify-content-between">
+                        <div class="">
+                            <sub class="text-white fs-5">NT$5</sub>
+                            <sub class="text-gray fs-5">／1k tokens</sub>
+                        </div>
+                        <a class="text-white text-decoration-none fs-6" href="">
+                            開始使用
+                            <img class="ms-6" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/call%20made.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="r-primary border border-white text-white d-flex flex-column h-price-card">
+                    <div class="px-9 py-6 px-max-md-7 mb-auto">
+                        <p class="fs-2 fw-black">昊昊</p>
+                        <ul class="list-point">
+                            <li class="list-point">中級</li>
+                        </ul>
+                    </div>
+
+                    <div class="d-flex border-top border-whit px-9 py-6 px-max-md-7 justify-content-between">
+                        <div class="">
+                            <sub class="text-white fs-5">NT$5</sub>
+                            <sub class="text-gray fs-5">／1k tokens</sub>
+                        </div>
+                        <a class="text-white text-decoration-none fs-6" href="">
+                            開始使用
+                            <img class="ms-6" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/call%20made.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="r-primary border border-white text-white d-flex flex-column h-price-card">
+                    <div class="px-9 py-6 px-max-md-7 mb-auto">
+                        <p class="fs-2 fw-black">卡卡</p>
+                        <ul class="list-point">
+                            <li class="list-point">高級</li>
+                        </ul>
+                    </div>
+
+                    <div class="d-flex border-top border-whit px-9 py-6 px-max-md-7 justify-content-between">
+                        <div class="">
+                            <sub class="text-white fs-5">NT$5</sub>
+                            <sub class="text-gray fs-5">／1k tokens</sub>
+                        </div>
+                        <a class="text-white text-decoration-none fs-6" href="">
+                            開始使用
+                            <img class="ms-6" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/call%20made.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="r-primary border border-white text-white d-flex flex-column h-price-card">
+                    <div class="px-9 py-6 px-max-md-7 mb-auto">
+                        <p class="fs-2 fw-black">杰杰</p>
+                        <ul class="list-point">
+                            <li class="list-point">最高級</li>
+                            <li class="list-point">資訊最完善</li>
+                        </ul>
+                    </div>
+
+                    <div class="d-flex border-top border-whit px-9 py-6 px-max-md-7 justify-content-between">
+                        <div class="">
+                            <sub class="text-white fs-5">NT$5</sub>
+                            <sub class="text-gray fs-5">／1k tokens</sub>
+                        </div>
+                        <a class="text-white text-decoration-none fs-6" href="">
+                            開始使用
+                            <img class="ms-6" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/call%20made.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- -----------產品Price END ------------ -->
+
+        <div class="row mb-10 mb-max-md-5">
+            <div class="col-lg-4 mb-max-md-2"><h2 class="fw-black text-white fs-2">使用規範</h2></div>
+            <div class="col-lg-8 lh-sm">
+                <div class="border-bottom border-white mb-7">
+                    <h2 class="fw-black text-white fz-sub-title mb-4">守法</h2>
+                    <p class="text-white fz-2 mb-7">請遵守相關的法規和政策，不得進行任何違法違規的活動。</p>
+                </div>
+
+                <div class="border-bottom border-white mb-7">
+                    <h2 class="fw-black text-white fz-sub-title mb-4">資訊安全</h2>
+                    <p class="text-white fz-2 mb-7">請務必保護好自己的帳號和密碼，不得將其透露給他人。</p>
+                </div>
+
+                <div class="border-bottom border-white">
+                    <h2 class="fw-black text-white fz-sub-title mb-4">守密</h2>
+                    <p class="text-white fz-2 mb-7">需對使用過程中產生的數據負責，不得擅自泄露數據。</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="bg-white r-secondary py-8 py-max-md-8 mb-10">
+        <div class="container">
+            <p class="fz-secondary-title fw-black text-center mb-6 mb-max-md-3">這些超酷的應用，都來自 AI工具王</p>
+
+            <!-- -----------關鍵字搜尋 Start ------------ -->
+            <div class="input-group bg-gray r-primary py-6 px-7 mb-4">
+                <span class="input-group-icon me-6"><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/search.png" alt="search" class="input-img"></span>
+                <input type="text" class="form-control input-search" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="輸入關鍵字搜尋">
+            </div>
+
+            <!-- -----------篩選等功能區 Start ------------ -->
+            <div class="d-flex justify-content-between align-items-center mb-7 flex-wrap">
+                <div class="dropdown order-lg-1">
+                    <button class="btn btn-secondary py-6 px-7 r-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        篩選
+                        <span class="material-icons dropdown-img ms-6">
+                            filter_alt
+                        </span>
+                    </button>
+
+                    <ul class="dropdown-menu py-6" aria-labelledby="dropdownMenuButton1">
+                        <lI class="py-2 px-7"><span class="text-gray fz-9">AI 模型</span></lI>
+
+                        <li><a href="#" class="dropdown-item px-7">所有模型</a></li>
+                        <li><a href="#" class="dropdown-item px-7">卡卡</a></li>
+                        <li><a href="#" class="dropdown-item px-7">杰杰</a></li>
+                        <li><a href="#" class="dropdown-item px-7">琪琪</a></li>
+                        <li><a href="#" class="dropdown-item px-7">昊昊</a></li>
+
+                        <lI class="px-7 text-gray"><hr></lI>
+
+                        <lI class="py-2 px-7"><span class="text-gray fz-9">類型</span></lI>
+
+                        <li><a href="#" class="dropdown-item px-7">所有類型</a></li>
+                        <li><a href="#" class="dropdown-item px-7">篩選項目 1</a></li>
+                        <li><a href="#" class="dropdown-item px-7">篩選項目 2</a></li>
+                        <li><a href="#" class="dropdown-item px-7">篩選項目 3</a></li>
+                        <li><a href="#" class="dropdown-item px-7">篩選項目 4</a></li>
+                        <li><a href="#" class="dropdown-item px-7">篩選項目 5</a></li>
+                        <li><a href="#" class="dropdown-item px-7">篩選項目 6 </a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="dropdown order-lg-3">
+                    <button class="btn btn-secondary py-6 px-7 r-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        由新到舊
+                        <span class="material-icons dropdown-img ms-6">
+                                expand_more
+                        </span>
+                    </button>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a href="#" class="dropdown-item px-7">由新到舊</a></li>
+                        <li><a href="#" class="dropdown-item px-7">由舊到新</a></li>
+                    </ul>
+                </div>
+
+                <ul class="nav order-lg-2 flex-nowrap overflow_menu">
+                    <li class="nav-overflow-item"><a href="" class="nav-link bg-gray px-3 py-2 r-primary text-black fw-black">全部</a></li>
+                    <li class="nav-overflow-item ms-2"><a href="" class="nav-link px-3 py-2 text-gray">聊天</a></li>
+                    <li class="nav-overflow-item ms-2"><a href="" class="nav-link px-3 py-2 text-gray">影像辨識</a></li>
+                    <li class="nav-overflow-item ms-2"><a href="" class="nav-link px-3 py-2 text-gray">翻譯</a></li>
+                    <li class="nav-overflow-item ms-2"><a href="" class="nav-link px-3 py-2 text-gray">行銷</a></li>
+                    <li class="nav-overflow-item ms-2"><a href="" class="nav-link px-3 py-2 text-gray">客服</a></li>
+                    <li class="nav-overflow-item ms-2"><a href="" class="nav-link px-3 py-2 text-gray">生產力</a></li>
+                </ul>
+
+            </div>
+            <!-- -----------篩選等功能區 end ------------ -->
+            
+            <!-- -----------卡片區 Start ------------ -->
+            <div class="row g-4 mb-7">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card-product-group">
+                        <div class="card-product-img-box">
+                            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool1.png" alt="Chatbot Builder" class="card-product-img">
+                        </div>
+
+                        <div class="py-6 px-9 card-product-body">
+                            <p class="fw-black fz-5 mb-8">Chatbot Builder</p>
+                            <p class="fz-8 text-dark-gray mb-0">建立智能化的聊天機器人，解答常見問題、提供客戶支援、收集反饋等。</p>
+                        </div>
+
+                            
+                        <div class="py-6 px-9 d-flex justify-content-between align-items-center card-product-hr">
+                            <span class="fw-black">AI 模型</span>
+                            <span>卡卡</span>
+                        </div>
+    
+    
+                        <div class="py-6 px-9 d-flex justify-content-between align-items-center">
+                            <span>#聊天</span>
+                            <a href="#" class="text-black"><span class="material-icons">
+                                share
+                            </span></a>
+                        </div>
+
+                        
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card-product-group">
+                        <div class="card-product-img-box">
+                            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool2.png" alt="Image Recognition Platform" class="card-product-img">
+                        </div>
+
+                        <div class="py-6 px-9 card-product-body">
+                            <p class="fw-black fz-5 mb-8">Image Recognition Platform</p>
+                            <p class="fz-8 text-dark-gray mb-0">專業的圖像識別平台，識別圖像、分類、標記等。
+                            </p>
+                        </div>
+
+                        <div class="py-6 px-9 d-flex justify-content-between align-items-center card-product-hr">
+                            <span class="fw-black">AI 模型</span>
+                            <span>杰杰</span>
+                        </div>
+
+                        <div class="py-6 px-9 d-flex justify-content-between align-items-center ">
+                            <span>#影像辨識</span>
+                            <a href="#" class="text-black"><span class="material-icons">
+                                share
+                            </span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card-product-group">
+                        <div class="card-product-img-box">
+                            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool3.png" alt="Language Translation API" class="card-product-img">
+                        </div>
+
+                        <div class="py-6 px-9 card-product-body">
+                            <p class="fw-black fz-5 mb-8">Language Translation API</p>
+                            <p class="fz-8 text-dark-gray mb-0">專業的語言翻譯 API，實現文本翻譯功能，支援多種格式的文本。</p>
+                        </div>
+
+
+                        <div class="py-6 px-9 d-flex justify-content-between align-items-center card-product-hr">
+                            <span class="fw-black">AI 模型</span>
+                            <span>琪琪</span>
+                        </div>
+
+
+                        <div class="py-6 px-9 d-flex justify-content-between align-items-center">
+                            <span>#翻譯</span>
+                            <a href="#" class="text-black"><span class="material-icons">
+                                share
+                            </span></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card-product-group">
+                        <div class="card-product-img-box">
+                            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool4.png" alt="Sentiment Analysis API" class="card-product-img">
+                        </div>
+
+                        <div class="py-6 px-9 card-product-body">
+                            <p class="fw-black fz-5 mb-8">Sentiment Analysis API</p>
+                            <p class="fz-8 text-dark-gray mb-0">自動識別文本中的情感傾向，包括正向、負向和中性等。適用於情感分析、社交媒體監控、市場調查等。</p>
+                        </div>
+
+
+                        <div class="py-6 px-9 d-flex justify-content-between align-items-center card-product-hr">
+                            <span class="fw-black">AI 模型</span>
+                            <span>昊昊</span>
+                        </div>
+
+
+                        <div class="py-6 px-9 d-flex justify-content-between align-items-center">
+                            <span>#行銷</span>
+                            <a href="#" class="text-black"><span class="material-icons">
+                                share
+                            </span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card-product-group">
+                        <div class="card-product-img-box">
+                            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool5.png" alt="Fraud Detection Platform" class="card-product-img">
+                        </div>
+
+                        <div class="py-6 px-9 card-product-body">
+                            <p class="fw-black fz-5 mb-8">Fraud Detection Platform</p>
+                            <p class="fz-8 text-dark-gray mb-0">預防詐騙活動，適用於銀行、金融、電商等。
+                            </p>
+                        </div>
+
+
+                        <div class="py-6 px-9 d-flex justify-content-between align-items-center card-product-hr">
+                            <span class="fw-black">AI 模型</span>
+                            <span>卡卡</span>
+                        </div>
+
+                        <div class="py-6 px-9 d-flex justify-content-between align-items-center">
+                            <span>#客服</span>
+                            <a href="#" class="text-black"><span class="material-icons">
+                                share
+                            </span></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card-product-group">
+                        <div class="card-product-img-box">
+                            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool6.png" alt="Voice Assistant SDK" class="card-product-img">
+                        </div>
+
+                        <div class="py-6 px-9 card-product-body">
+                            <p class="fw-black fz-5 mb-8">Voice Assistant SDK</p>
+                            <p class="fz-8 text-dark-gray mb-0">通過語音控制應用程式、設備，實現多種功能，例如播放音樂、查詢天氣、發送信息等。</p>
+                        </div>
+
+
+                        <div class="py-6 px-9 d-flex justify-content-between align-items-center card-product-hr">
+                            <span class="fw-black">AI 模型</span>
+                            <span>杰杰</span>
+                        </div>
+
+
+                        <div class="py-6 px-9 d-flex justify-content-between align-items-center">
+                            <span>#生產力</span>
+                            <a href="#" class="text-black"><span class="material-icons">
+                                share
+                            </span></a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+            <!-- -----------卡片區 end ------------ -->
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end">
+                    <li class="page-item active me-2">
+                        <a href="#" class="page-link fw-black">1</a>
+                    </li>
+                    <li class="page-item  me-2">
+                        <a href="#" class="page-link fw-black">2</a>
+                    </li>
+                    <li class="page-item  me-2">
+                        <a href="#" class="page-link fw-black">3</a>
+                    </li>
+                    <li class="page-item  me-2">
+                        <a href="#" class="page-link fw-black">4</a>
+                    </li>
+                    <li class="page-item  me-2">
+                        <a href="#" class="page-link fw-black">5</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link fw-black"><span class="material-icons page-arrow">
+                            arrow_forward_ios
+                            </span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row mb-10 mb-max-md-5">
+            <div class="col-lg-4 mb-max-md-2"><h2 class="fw-black text-white fs-2">常見問題</h2></div>
+            <div class="col-lg-8 lh-sm d-flex flex-column">
+                <a class="btn-primary r-primary fs-5 text-decoration-none mb-3"  data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+                    <img class="QA-icon-open me-7" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/add.png" alt="openQA">
+
+                    <img class="QA-icon-close me-7" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/remove.png" alt="closeQA">
+
+                    如何選擇適合的AI模型？
+
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="QA-card QA-card-body text-white fs-6">
+                            選擇適合的 AI 模型需要考慮您的應用場景、需要解決的問題、可用的資源以及預算等因素。可以通過對比不同模型的性能、準確率、速度等指標，以及與其他用戶的評價與反饋，來選擇最適合的模型。
+                        </div>
+                    </div>
+                </a>
+
+                <a class="btn-primary r-primary fs-5 text-decoration-none mb-3" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">
+                    <img class="QA-icon-open me-7" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/add.png" alt="openQA">
+
+                    <img class="QA-icon-close me-7" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/remove.png" alt="closeQA">
+
+                    租用模型的費用是如何計算的？
+
+                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="QA-card QA-card-body text-white fs-6">
+                            租用模型的費用通常會根據模型的性能和使用時間等因素進行計算。具體而言，模型的性能可以根據其精度、速度、暫用資源等指標來評估；而使用時間可以根據租用時間的長短來計算，通常會按小時、天或月來計算。綜合考慮這些因素，系統會自動算出對應的租用費用。
+                        </div>
+                    </div>
+                </a>
+
+                <a class="btn-primary r-primary fs-5 text-decoration-none mb-3" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">
+                    <img class="QA-icon-open me-7" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/add.png" alt="openQA">
+
+                    <img class="QA-icon-close me-7" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/remove.png" alt="closeQA">
+
+                    如何進行付款？
+
+                    <div class="collapse multi-collapse" id="multiCollapseExample3">
+                        <div class="QA-card QA-card-body text-white fs-6">
+                            付款方式可以通過網站上提供的宴上支付平台進行支付。具體而言，您可以選擇信用卡、銀行轉帳電子錢包等不同的支付方式進行支付。在支付前，您需要先登錄網站並選擇適合的租用方案，系統會自動計算出對應的租用欸用和支付金額，然後您可以選擇適合的支付方式進行支付。完成支付後，系統會自動向您提供相應的服務。
+                        </div>
+                    </div>
+                </a>
+
+                <a class="btn-primary r-primary fs-5 text-decoration-none mb-3" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">
+                    <img class="QA-icon-open me-7" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/add.png" alt="openQA">
+
+                    <img class="QA-icon-close me-7" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/remove.png" alt="closeQA">
+
+                    租用模型的期限是多久？
+
+                    <div class="collapse multi-collapse" id="multiCollapseExample4">
+                        <div class="QA-card QA-card-body text-white fs-6">
+                            租用模型的期限可以根據您的需求進行設置，通常可以選擇幾個小時、幾天或幾個月等不同的時間段。
+                        </div>
+                    </div>
+                </a>
+
+                <a class="btn-primary r-primary fs-5 text-decoration-none" data-bs-toggle="collapse" href="#multiCollapseExample5" role="button" aria-expanded="false" aria-controls="multiCollapseExample5">
+                    <img class="QA-icon-open me-7" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/add.png" alt="openQA">
+
+                    <img class="QA-icon-close me-7" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/remove.png" alt="closeQA">
+
+                    如果在使用過程中遇到問題，應該怎麼處理？
+
+                    <div class="collapse multi-collapse" id="multiCollapseExample5">
+                        <div class="QA-card QA-card-body text-white fs-6">
+                            如果在使用過程中遇到問題，您可以聯繫惡扶或技術支持人員進行諮詢或報告問題。您也可以。您也可以通過網站上的幫助中心或社區論壇尋找相關的解決方案和回答。
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="d-flex border-top border-white justify-content-between py-9">
+            <div class="d-flex flex-column">
+                <a class="text-decoration-none fw-black fz-secondary-title text-white " href="index.html">首頁</a>
+                <a class="text-decoration-none fw-black fz-secondary-title text-white " href="#">定價</a>
+            </div>
+            <img class="logo-img-box" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/logo.png" alt="">
+        </div>
+
+        <div class="d-flex border-top border-white fs-6 justify-content-between align-items-center py-10 flex-wrap">
+            <div class="me-8"><p class="text-white my-auto" >AI工具王 © 2023</p></div>
+
+            <a class="text-white text-decoration-none order-lg-3" href="#">
+                Back to top
+                <img class="ms-6" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/arrow%20upward.png" alt="">
+            </a>
+
+            <div class="mt-max-md-1 flex-grow-1 order-lg-2">
+                <a class="text-white text-decoration-none me-7" href="">Facebook</a>
+                <a class="text-white text-decoration-none me-7" href="">Twitter</a>
+                <a class="text-white text-decoration-none" href="">Instagram</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="all.js"></script>
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <!-- Bootstrap js end -->
+</body>
+</html>
