@@ -89,63 +89,31 @@
 
 @keyframes move1{
     0%{
-        top: 0px;
+        top: 0%;
     }
     10%{
-        top: 0px;
+        top: 0%;
     }
     40%{
-        top: -600px;
+        top: -400%;
     }
     100%{
-        top: -600px;
+        top: -400%;
     }
 }
 
 @keyframes move2{
     0%{
-        top: 250px;
+        top: 250%;
     }
     30%{
-        top: 250px;
+        top: 250%;
     }
     70%{
-        top: -180px;
+        top: -100%;
     }
     100%{
-        top: -180px;
-    }
-}
-
-@media (max-width: 768px){
-    @keyframes move1{
-        0%{
-            top: 0px;
-        }
-        10%{
-            top: 0px;
-        }
-        40%{
-            top: -537px;
-        }
-        100%{
-            top: -537px;
-        }
-    }
-    
-    @keyframes move2{
-        0%{
-            top: 187px;
-        }
-        30%{
-            top: 187px;
-        }
-        70%{
-            top: -117px;
-        }
-        100%{
-            top: -117px;
-        }
+        top: -100%;
     }
 }
 
